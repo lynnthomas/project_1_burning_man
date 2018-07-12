@@ -25,7 +25,6 @@ button {
 
 /*-------------------------------------------heading*/
 
-
 .navDefault {
     position: fixed;
     top: 0;
@@ -94,22 +93,7 @@ button {
     transform: translateY(0);
 }
 
-.logo {
+.header-img {
     background: url("../images/burningman.jpg");
-    background-position: center;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
+    
