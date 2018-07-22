@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-------------------------------------------colors*/
 
@@ -77,7 +77,7 @@ button {
 
 .dropdownLink:hover {
     color: #f27900;
-    background-color: #f20020;
+    background-color: #ffffff;
 }
 
 .dropdown {
@@ -86,7 +86,7 @@ button {
 }
 
 .dropdown:hover button {
-    background-color: #f20020;
+    background-color: #ffffff;
 }
 
 .dropdown:hover .dropdownMenu {
@@ -106,19 +106,102 @@ button {
 .burning-man {
     position: absolute;
     top: 50px;
-    left: 20px;
+    left: 150px;
     font-family: "cabin sketch";
     font-size: 80px;
+    font-weight: bold;
     color: #0a56d1;
 }
 
 .leave-no-trace {
     position: absolute;
-    top: 150px;
-    left: 50px;
+    top: 130px;
+    left: 180px;
     font-family: "cabin sketch";
     font-size: 50px;
     color: #0a56d1;
+}
+
+/*-------------------------------------------footer*/
+
+footer {
+    background-color: #eaa662;
+    color: #0a56d1;
+    min-height: 100px;
+    font-family: "cabin sketch";
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.footer-content {
+    margin: 15px;
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+}
+
+.inner-cloud {
+	display: inline-block;
+	width: 50%;
+	margin: 0 auto;
+	position: absolute;
+	top: 15%;
+	left: 25%;
+}
+
+p {
+	font-size: 16px;
+	text-align: center;
+	color: #0a56d1;
+	font-weight: bold;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+    color: #0a56d1;
+    background: #ffffff;
+     transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #eaa662;
+}
+
+h5 {
+    font-family: "cabin sketch";
+    font-size: 16px;
+    text-align: center;
+}
+
+/*-------------------------------------------home page*/
+
+body, html {
+    height: 50%;
+}
+
+.aerial-view { 
+    
+    background-image: url("https://media.wired.com/photos/59a09bfce422c2647d157f67/master/pass/BlackRockCity-158209283.jpg");
+    height: 100;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
 }
     
     
