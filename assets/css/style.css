@@ -190,18 +190,22 @@ h5 {
 
 /*-------------------------------------------home page*/
 
-body, html {
-    height: 50%;
+#aerial-view {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
 }
-
-.aerial-view { 
-    
-    background-image: url("https://media.wired.com/photos/59a09bfce422c2647d157f67/master/pass/BlackRockCity-158209283.jpg");
-    height: 100;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.6;
+#aerial-view img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
 }
     
     
