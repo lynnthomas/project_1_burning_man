@@ -141,15 +141,6 @@ footer {
     border-radius: 50%;
 }
 
-.inner-cloud {
-	display: inline-block;
-	width: 50%;
-	margin: 0 auto;
-	position: absolute;
-	top: 15%;
-	left: 25%;
-}
-
 p {
 	font-size: 16px;
 	text-align: center;
@@ -190,10 +181,8 @@ h5 {
 
 /*-------------------------------------------home page*/
 
-
-
-.HOME {
-    position: inherit;
+.home {
+    position: center;
     text-align: center;
     top: 50px;
     left: 150px;
@@ -203,44 +192,30 @@ h5 {
     color: #000000;
 }
 
-#let-it-burn-video {
-    margin-top: 50px;
-    margin-left: 50px;
-    opacity: 1.0;
+
+
+.home-info p {
+    text-align: justify;
+    color: #000000;
+    text-transform: initial;
+    text-align-last: center;
+    padding-left: 100px;
+    padding-right: 20px;
+   
 }
 
-#aerial-view {
-    background: url("../images/aerial-view.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 1170px;
-    margin-top: 0px;
-    opacity: 0.4;
-} 
-
-#aerial-view p {
-    opacity: 1.0;
+#let-it-burn-video {
+    margin-left: 100px;
 }
 
 #radical-ritual {
-    position: inherit;
-    margin-bottom: 50px;
-    margin-right: 50px;
-    opacity: 1.0;
+    margin-left: 250px;
 }
+
 
 /*-------------------------------------------history*/
 
-#inner-children {
-    background: url("../images/inner-children.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 1160px;
-    margin-top: 0px;
-    opacity: 0.4;  
-}
+
 
 .history {
     position: inherit;
@@ -254,50 +229,46 @@ h5 {
 }
 
 .history-info p {
-    text-align: justify;
+    text-align: center;
     color: #000000;
     text-transform: initial;
-    text-align-last: center;
     padding-left: 100px;
 }
 
 #burning-history {
+    margin-left: 100px;
+}
+
+#burning-man-timeline {
+     margin-left: 250px;
+}
+
+/*-------------------------------------------10 Principles*/
+
+.ten-principles {
     position: inherit;
-    margin-bottom: 50px;
-    margin-right: 50px;
-    opacity: 1.0;
+    text-align: center;
+    top: 50px;
+    left: 150px;
+    font-family: "cabin sketch";
+    font-size: 80px;
+    font-weight: bold;
+    color: #000000;
 }
 
-#first-man {
-     background: url("https://www.burn.life/uploads/4/0/9/7/40971711/2681891.jpg?207");
-     min-height: 360px;
-     opacity: 1.0; 
+h2 {
+    text-shadow: 2px 2px #0a56d1;
 }
 
-/*-------------------------------------------what's-on-offer*/
-
-#dream {
-    background: url("../images/burningman.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 750px;
-    margin-top: 0px;
-    opacity: 0.4; 
+p {
+    padding-left: 200px;
+    color: #000000
 }
 
 
 /*-------------------------------------------global burners*/
 
-#embrace {
-    background: url("../images/embrace.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 1160px;
-    margin-top: 0px;
-    opacity: 0.4;  
-}
+
 
 .global {
     position: inherit;
@@ -318,12 +289,18 @@ h5 {
     padding-left: 100px;
 }
 
+h2 {
+    text-shadow: 2px 2px #0a56d1;
+}
+
 #afrika-burns {
-     background: url("../images/afrika-burns.jpg");
-     background-repeat: no-repeat;
-     min-height:500px;
-     width: 50%;
-     
+      background: url("../images/afrika-burns.jpg");
+      margin-left: 100px;
+}
+
+#afrika-burn-video {
+    position: inherit;
+    margin-left: 250px;
 }
 
 #burning-seed {
@@ -332,6 +309,11 @@ h5 {
     margin-right: 50px;
     opacity: 1.0;
 } 
+
+#burning-seed-img {
+    max-height: inherit;
+    min-height: inherit;
+}
 
 
 
