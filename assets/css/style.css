@@ -4,21 +4,21 @@
 
 button {
     background-color:  #eaa662;
-    color: #f27900;
+    color: #0a56d1;
 }
 
 .dropdownLink {
     background-color: #eaa662;
-    color: #f27900;
+    color: #0a56d1;
 }
 
 .dropdownLink:hover {
     color: #f27900;
-    background-color: #f20020;
+    background-color: #ffffff;
 }
 
 .dropdown:hover button {
-    background-color: #f20020;
+    background-color: #ffffff;
 }
 
 
@@ -140,6 +140,7 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
+    text-align: center;
 }
 
 p {
@@ -147,6 +148,7 @@ p {
 	text-align: center;
 	color: #0a56d1;
 	font-weight: bold;
+	margin-top: 10px;
 }
 
 .social-links {
@@ -165,9 +167,6 @@ p {
     color: #0a56d1;
     background: #ffffff;
      transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -183,7 +182,7 @@ h5 {
 /*-------------------------------------------home page*/
 
 .home {
-    position: center;
+    position: inherit;
     text-align: center;
     top: 50px;
     left: 150px;
