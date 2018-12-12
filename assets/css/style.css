@@ -31,6 +31,7 @@ button {
     left: 0;
     right: 0;
     background-color: #eaa662;
+    z-index: 999;
 }
 
 button {
@@ -201,15 +202,16 @@ h5 {
     text-align-last: center;
     padding-left: 100px;
     padding-right: 20px;
+    margin-left: 100px;
    
 }
 
 #let-it-burn-video {
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 #radical-ritual {
-    margin-left: 250px;
+    margin-left: 150px;
 }
 
 
@@ -233,14 +235,15 @@ h5 {
     color: #000000;
     text-transform: initial;
     padding-left: 100px;
-}
-
-#burning-history {
     margin-left: 100px;
 }
 
+#burning-history {
+    margin-left: 250px;
+}
+
 #burning-man-timeline {
-     margin-left: 250px;
+    margin-left: 150px;
 }
 
 /*-------------------------------------------10 Principles*/
@@ -287,6 +290,7 @@ p {
     text-transform: initial;
     text-align-last: center;
     padding-left: 100px;
+    margin-left: 100px;
 }
 
 h2 {
@@ -294,25 +298,14 @@ h2 {
 }
 
 #afrika-burns {
-      background: url("../images/afrika-burns.jpg");
-      margin-left: 100px;
+      
+      text-align: center;
+      margin-left: 150px;
 }
-
-#afrika-burn-video {
-    position: inherit;
-    margin-left: 250px;
-}
-
-#burning-seed {
-    position: inherit;
-    margin-bottom: 50px;
-    margin-right: 50px;
-    opacity: 1.0;
-} 
 
 #burning-seed-img {
-    max-height: inherit;
-    min-height: inherit;
+     text-align: center;
+     margin-left: 150px;
 }
 
 
