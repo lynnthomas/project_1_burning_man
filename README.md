@@ -62,6 +62,34 @@ The page also includes a photo from each event of their respected effigies built
 
 ## Testing
 
+Each page has been looked over several times to make sure it looks and functions how i want it to, from the Youtube videos,
+to the hovering over the social links in the footer, to the Menu Navbar to drop down and allow the user to go between each
+page effortlessly.
+
+While testing the pages the menu bar at the very top would follow down which i wanted it to, but it would end up being underneath
+all my information in the main body. I overcame this problem by adding a Z-index to its style of a very high number like 999
+which then made it prominent over everything else on the pages.
+
+On my history page i found it hard to line up my image to the Youtube video because of the bootstrap used. I overcame this 
+problem by adding a bootstrap to just the image of col-md-6 which allowed me to do what i wanted to to the image.
+
+On my Global Burners page i couldnt manage to centre my images due to the pages bootstrap, but after adding
+text-align: centre; to the CSS of each image, they were then placed exactly where i wanted them.
+
+After testing my so-called finish code on https://validator.w3.org/#validate_by_input, i had a couple of errors and warnings,
+ 
+ - I had to add the language to english in the <head> on each page
+ - I needed to add a title to the head element on each page
+ - Timeline image needed an alt attribute on the History page
+ - I had an unclosed section element
+ - There was an attribute height not allowed on line 39 of the Global Burners page
+ - There was a stray end tag div on line 77
+
+After testing my CSS code on https://jigsaw.w3.org/css-validator/#validate_by_input, i had one error.
+
+ - On my home page section at line 185 i had a value error, position: center; was not allowed so it was changed
+   to inherit.
+
 ## Deployment
 
 I deployed my project to Github whenever i felt i needed to add something which i had done that was important by adding
