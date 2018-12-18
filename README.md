@@ -59,6 +59,17 @@ The page also includes a photo from each event of their respected effigies built
 
 ## Technologies Used
 
+In this project, there were several frameworks and languages used ...
+
+ - Bootstrap (https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css)
+   Bootstrap was used to help lay out the content in a grid system i felt would allow the user to have a clear and simple
+   way to guide themselves through each page with easy to read and understanding of the content layout.
+ - Font Awesome (https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
+   Font Awesome was used in this project to allow the users to be able to easily locate links to the Burning Man social pages,
+   through stylish icons located in the footer of each page.
+ - HTML5 was used to provide the structure of the web pages and help describe the content on each page.
+ - CSS was used to present the content and style it to specifically the way i intended it to be styled.
+
 
 ## Testing
 
@@ -94,8 +105,6 @@ After testing my CSS code on https://jigsaw.w3.org/css-validator/#validate_by_in
 
 I deployed my project to Github whenever i felt i needed to add something which i had done that was important by adding
 it to the staging area then committing it to my Github - https://github.com/lynnthomas/project_1_burning_man.
-
-## Credits
 
 ### Content
 

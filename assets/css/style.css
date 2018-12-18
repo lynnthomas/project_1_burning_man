@@ -154,6 +154,7 @@ p {
 .social-links {
     padding-bottom: 15px;
     text-align: center;
+    margin-left: 150px;
 }
 
 .social-links li a i {
@@ -177,6 +178,7 @@ h5 {
     font-family: "cabin sketch";
     font-size: 16px;
     text-align: center;
+    margin-left: 150px;
 }
 
 /*-------------------------------------------home page*/
@@ -184,8 +186,8 @@ h5 {
 .home {
     position: inherit;
     text-align: center;
+    margin-right: 100px;
     top: 50px;
-    left: 150px;
     font-family: "cabin sketch";
     font-size: 80px;
     font-weight: bold;
@@ -221,8 +223,8 @@ h5 {
 .history {
     position: inherit;
     text-align: center;
+    margin-right: 100px;
     top: 50px;
-    left: 150px;
     font-family: "cabin sketch";
     font-size: 80px;
     font-weight: bold;
@@ -238,7 +240,7 @@ h5 {
 }
 
 #burning-history {
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
 #burning-man-timeline {
@@ -250,8 +252,8 @@ h5 {
 .ten-principles {
     position: inherit;
     text-align: center;
+    margin-right: 100px;
     top: 50px;
-    left: 150px;
     font-family: "cabin sketch";
     font-size: 80px;
     font-weight: bold;
@@ -260,6 +262,8 @@ h5 {
 
 h2 {
     text-shadow: 2px 2px #0a56d1;
+    text-align: center;
+    margin-left: 150px;
 }
 
 p {
@@ -275,8 +279,8 @@ p {
 .global {
     position: inherit;
     text-align: center;
+    margin-right: 100px;
     top: 50px;
-    left: 150px;
     font-family: "cabin sketch";
     font-size: 80px;
     font-weight: bold;
