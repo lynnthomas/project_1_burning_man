@@ -103,8 +103,7 @@ After testing my CSS code on https://jigsaw.w3.org/css-validator/#validate_by_in
 
 ## Deployment
 
-I deployed my project to Github whenever i felt i needed to add something which i had done that was important by adding
-it to the staging area then committing it to my Github - https://github.com/lynnthomas/project_1_burning_man.
+Project deployed using GitHub pages, you can view it here (https://lynnthomas.github.io/project_1_burning_man/)
 
 ### Content
 
